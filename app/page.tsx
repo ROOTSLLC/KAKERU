@@ -6,10 +6,6 @@ export default function Home() {
           src="/intro-v1.jpg"
           alt="あなたの歯間に合わせられる。市販のフロス糸を替えるだけ。薄さ1mmで奥歯まで引っかからずスッと届く、チタン製フロスハンドル KAKERU"
         />
-        <img
-          src="/domestic-titanium.png"
-          alt="国産、純チタン製のフロス交換ハンドル"
-        />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">初回のご案内は、LINE先行。</p>
           <h2>お得な先行情報を<br />いち早くお届けします。</h2>
@@ -29,6 +25,14 @@ export default function Home() {
         <img
           src="/pro-review.png"
           alt="プロに聞くKAKERUの魅力。歯科衛生士・帆保智子さんによる推薦コメント"
+        />
+        <img
+          src="/point-01-titanium.png"
+          alt="POINT 01 日本製、純度99%以上の純チタンを使用。錆びにくく丈夫な一生もの"
+        />
+        <img
+          src="/point-02-thin-light.png"
+          alt="POINT 02 薄さ1mmで奥歯までしっかり届き、わずか2gで手が疲れにくい"
         />
       </section>
       <div className="continuation" aria-hidden="true" />
