@@ -26,6 +26,10 @@ export default function Home() {
           </a>
           <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
         </section>
+        <img
+          src="/pro-review.png"
+          alt="プロに聞くKAKERUの魅力。歯科衛生士・帆保智子さんによる推薦コメント"
+        />
       </section>
       <div className="continuation" aria-hidden="true" />
     </main>
