@@ -38,6 +38,18 @@ export default function Home() {
           src="/point-03-four-point-fukui.png"
           alt="4箇所固定でフロスをしっかり張れる設計。福井県の職人技で製造"
         />
+        <img
+          src="/point-04-floss-choice.png"
+          alt="POINT 03 歯間に合わせて最適な市販フロス糸を選べる"
+        />
+        <img
+          src="/point-05-hanging-storage.png"
+          alt="POINT 04 水洗いして掛けて保管でき、場所を取らず衛生的"
+        />
+        <img
+          src="/point-06-domestic-factory.png"
+          alt="POINT 05 医療機器も手がける福井県の国内工場と精密チタン加工の職人技"
+        />
       </section>
       <div className="continuation" aria-hidden="true" />
     </main>
