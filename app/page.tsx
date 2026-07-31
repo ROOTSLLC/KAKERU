@@ -34,6 +34,10 @@ export default function Home() {
           src="/point-02-thin-light.png"
           alt="POINT 02 薄さ1mmで奥歯までしっかり届き、わずか2gで手が疲れにくい"
         />
+        <img
+          src="/point-03-four-point-fukui.png"
+          alt="4箇所固定でフロスをしっかり張れる設計。福井県の職人技で製造"
+        />
       </section>
       <div className="continuation" aria-hidden="true" />
     </main>
