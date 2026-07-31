@@ -9,6 +9,7 @@ export default function Home() {
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">初回のご案内は、LINE先行。</p>
           <h2>お得な先行情報を<br />いち早くお届けします。</h2>
+          <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
             <span>最大</span>
             <strong>33<small>%</small></strong>
@@ -54,6 +55,7 @@ export default function Home() {
         <section className="lineRegistration finalLineRegistration" id="final-line-registration">
           <p className="finalMessage">ここまで読んでくださった方へ</p>
           <h2>最も条件の良いご案内を、<br />LINEでお届けします。</h2>
+          <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
             <span>最大</span>
             <strong>33<small>%</small></strong>
