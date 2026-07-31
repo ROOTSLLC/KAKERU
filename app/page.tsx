@@ -67,6 +67,10 @@ export default function Home() {
           </a>
           <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
         </section>
+        <img
+          src="/final-travel-care.png"
+          alt="家でも旅先でも、いつもの磨き心地。毎日続けるケアだからこそ使いやすさにこだわりました"
+        />
       </section>
       <div className="continuation" aria-hidden="true" />
     </main>
