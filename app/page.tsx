@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <div className="plus">＋</div>
           <p className="coupon"><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
-          <a className="lineButton" href="#line-registration" aria-label="LINEで友だち追加">
+          <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
             <b>友だち追加</b>
           </a>
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
           <div className="plus">＋</div>
           <p className="coupon"><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
-          <a className="lineButton" href="#final-line-registration" aria-label="LINEで友だち追加">
+          <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
             <b>友だち追加</b>
           </a>
