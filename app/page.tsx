@@ -51,6 +51,22 @@ export default function Home() {
           src="/point-06-domestic-factory.png"
           alt="POINT 05 医療機器も手がける福井県の国内工場と精密チタン加工の職人技"
         />
+        <section className="lineRegistration finalLineRegistration" id="final-line-registration">
+          <p className="finalMessage">ここまで読んでくださった方へ</p>
+          <h2>最も条件の良いご案内を、<br />LINEでお届けします。</h2>
+          <div className="lineBenefit">
+            <span>最大</span>
+            <strong>33<small>%</small></strong>
+            <b>OFF</b>
+          </div>
+          <div className="plus">＋</div>
+          <p className="coupon"><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
+          <a className="lineButton" href="#final-line-registration" aria-label="LINEで友だち追加">
+            <span className="lineMark">LINE</span>
+            <b>友だち追加</b>
+          </a>
+          <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
+        </section>
       </section>
       <div className="continuation" aria-hidden="true" />
     </main>
