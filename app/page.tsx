@@ -10,6 +10,22 @@ export default function Home() {
           src="/domestic-titanium.png"
           alt="国産、純チタン製のフロス交換ハンドル"
         />
+        <section className="lineRegistration" id="line-registration">
+          <p className="lineLead">初回のご案内は、LINE先行。</p>
+          <h2>お得な先行情報を<br />いち早くお届けします。</h2>
+          <div className="lineBenefit">
+            <span>最大</span>
+            <strong>33<small>%</small></strong>
+            <b>OFF</b>
+          </div>
+          <div className="plus">＋</div>
+          <p className="coupon"><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
+          <a className="lineButton" href="#line-registration" aria-label="LINEで友だち追加">
+            <span className="lineMark">LINE</span>
+            <b>友だち追加</b>
+          </a>
+          <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
+        </section>
       </section>
       <div className="continuation" aria-hidden="true" />
     </main>

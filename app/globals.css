@@ -6,9 +6,31 @@ body { color: #222; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-
 main { min-height: 100vh; background: #fff; }
 .introArtwork { width: min(100%, 640px); margin: 0 auto; background: #fff; }
 .introArtwork img { display: block; width: 100%; height: auto; }
+.lineRegistration { padding: 76px 28px 82px; text-align: center; background: linear-gradient(180deg, #fff 0%, #f4fbfa 100%); border-top: 1px solid #e5ecea; }
+.lineLead { margin: 0 0 20px; color: #4a5553; font-size: 16px; font-weight: 700; letter-spacing: .06em; }
+.lineRegistration h2 { margin: 0 0 34px; font: 500 28px/1.65 "Yu Mincho", "Hiragino Mincho ProN", serif; letter-spacing: .05em; }
+.lineBenefit { display: flex; align-items: baseline; justify-content: center; color: #252b2a; }
+.lineBenefit>span { margin-right: 7px; font-size: 19px; font-weight: 700; }
+.lineBenefit strong { color: #00aeb5; font: 500 82px/1 Georgia, serif; }
+.lineBenefit strong small { font-size: 38px; }
+.lineBenefit>b { margin-left: 7px; font-size: 27px; }
+.plus { margin: 10px 0 6px; color: #8b9593; font-size: 25px; }
+.coupon { display: inline-block; margin: 0; padding: 8px 25px 10px; color: #2e3937; border-top: 1px solid #00aeb5; border-bottom: 1px solid #00aeb5; font-size: 22px; font-weight: 700; line-height: 1.45; }
+.coupon strong { color: #00aeb5; font-size: 34px; }
+.coupon span { font-size: 17px; letter-spacing: .15em; }
+.lineButton { width: min(100%, 390px); min-height: 72px; margin: 38px auto 22px; display: flex; align-items: center; justify-content: center; gap: 14px; color: #fff; background: #06c755; border-radius: 7px; box-shadow: 0 10px 25px rgba(6, 199, 85, .18); }
+.lineButton b { font-size: 20px; }
+.lineMark { width: 45px; height: 45px; display: grid; place-items: center; color: #06c755; background: #fff; border-radius: 50%; font: 800 11px Arial, sans-serif; }
+.lineNote { margin: 0; color: #7b8583; font-size: 11px; line-height: 1.8; }
 .continuation { width: min(100%, 640px); height: 96px; margin: 0 auto; background: #fff; }
 
 @media (min-width: 641px) {
   body { background: #f3f3f1; }
   main { width: 640px; margin: 0 auto; box-shadow: 0 0 36px rgba(30, 35, 34, .08); }
+}
+
+@media (max-width: 420px) {
+  .lineRegistration { padding: 62px 20px 70px; }
+  .lineRegistration h2 { font-size: 24px; }
+  .lineBenefit strong { font-size: 72px; }
 }
