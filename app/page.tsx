@@ -1,143 +1,102 @@
-const benefits = [
-  ["01", "純チタン", "医療機器にも用いられる、軽くて錆びにくい素材。毎日の口元に、妥協しない清潔感を。"],
-  ["02", "自分仕様", "市販の好きなフロスを巻くだけ。太さも香りも、その日の気分に合わせられます。"],
-  ["03", "日本製", "福井県の職人が、一つひとつ丁寧に仕上げる。薄さ1mmの繊細なかたちです。"],
+const lineUrl = "#line-register";
+
+const points = [
+  {
+    image: "/product/hand.png",
+    title: "市販の糸を、自由に選べる",
+    body: "好みの太さ、ワックス、香り。その日の気分や歯間に合わせて、いつものフロスを巻くだけ。",
+  },
+  {
+    image: "/product/detail.png",
+    title: "薄さ1mm。奥歯までスッと届く",
+    body: "薄く、軽く、指先の感覚まで伝わる設計。狙った歯間へ無理なく届きます。",
+  },
+  {
+    image: "/product/craft.png",
+    title: "純チタン × 信頼の日本製",
+    body: "純度99%以上の日本製純チタン TP340を使用。福井県の職人が、一つひとつ丁寧に仕上げます。",
+  },
+  {
+    image: "/product/pouch.png",
+    title: "ずっと使える、一生もの",
+    body: "錆びにくく、軽くて丈夫。使い終わったら洗って、専用ケースへ。捨てるのは糸だけです。",
+  },
 ];
 
-const steps = [
-  ["1", "フロスを約25cmに切る"],
-  ["2", "先端の溝に糸をかける"],
-  ["3", "持ち手に数回巻きつける"],
-  ["4", "しっかり張って準備完了"],
-];
+function LineButton({ label = "LINEで友だち追加" }: { label?: string }) {
+  return (
+    <a className="lineButton" href={lineUrl} aria-label={label}>
+      <span className="lineIcon">LINE</span>
+      <b>{label}</b>
+    </a>
+  );
+}
 
 export default function Home() {
   return (
     <main>
-      <header className="nav">
-        <a className="brand" href="#top" aria-label="KAKERU トップへ">KAKERU<span>MY FLOSS HANDLE</span></a>
-        <a className="navCta" href="#offer">先行価格を見る</a>
-      </header>
-
-      <section className="hero" id="top">
-        <div className="heroCopy">
-          <p className="eyebrow">MADE IN JAPAN · PURE TITANIUM</p>
-          <h1>磨いたあとの<br /><em>スッキリ感</em>が、変わる。</h1>
-          <p className="lead">市販の糸を巻くだけ。<br />歯のすき間に、すっと届くフロス交換ハンドル。</p>
-          <div className="heroActions">
-            <a className="primary" href="#offer">超早割 30%OFFで応援購入</a>
-            <span>限定30個 · 4,550円（税込）</span>
-          </div>
+      <section className="teaserHero">
+        <div className="heroGlow" />
+        <div className="heroText">
+          <p className="kicker">純チタンが、フロス習慣を変える。</p>
+          <h1>市販の糸を<br />巻くだけ。</h1>
+          <p className="sub">PURE TITANIUM FLOSS HANDLE</p>
         </div>
-        <div className="heroVisual">
-          <div className="halo" />
-          <img src="/product/hero.png" alt="純チタン製フロス交換ハンドル KAKERU" />
-          <p className="vertical">あなたの歯間に、<br />合わせられる。</p>
-        </div>
-        <div className="scroll">SCROLL</div>
+        <img src="/product/hero.png" alt="純チタン製フロス交換ハンドル KAKERU" />
+        <div className="heroBrand">KAKERU<span>MY FLOSS HANDLE</span></div>
       </section>
 
-      <section className="factBand">
-        <p>歯ブラシだけでは</p>
-        <strong>歯垢の約<span>60%</span>しか<br />落とせません。</strong>
-        <p>だから、毎日のフロスをもっと気持ちよく。</p>
+      <section className="lineOffer" id="line-register">
+        <p className="pre">初回案内は、<em>LINE先行。</em></p>
+        <h2><span>＼</span> Makuake公開予定 <span>／</span></h2>
+        <div className="discount">最大<strong>30%</strong>OFF<small>＋LINE限定特典</small></div>
+        <LineButton />
+        <p className="coupon">LINE登録者限定の先行情報をお届け</p>
+        <p className="caption">最も条件の良いご案内は、LINEにて。</p>
       </section>
 
-      <section className="problem section">
-        <div className="sectionTitle">
-          <p>DO YOU HAVE THESE PROBLEMS?</p>
-          <h2>こんなお悩み、<br />ありませんか？</h2>
-        </div>
-        <ul className="checks">
-          <li>フロスが毎日続かない</li>
-          <li>市販ホルダーは歯間に入りにくい</li>
-          <li>糸を指に巻くと痛い</li>
-          <li>洗面台に置きたくなる道具がない</li>
-        </ul>
-        <img src="/product/hand.png" alt="手のひらに収まるKAKERU" />
+      <section className="intro">
+        <p>ひとつの習慣で、<br />磨いたあとの爽快感が変わる。</p>
+        <div className="ornament"><i /><span>KAKERU<br /><small>4つのポイント</small></span><i /></div>
       </section>
 
-      <section className="statement">
-        <p>自分の歯間に合わせられるから、<br />詰まった汚れを、ごっそり。</p>
-        <h2>たどり着いたのは、<br /><span>「糸を選べる」</span>という答え。</h2>
+      <section className="points">
+        {points.map((point, index) => (
+          <article key={point.title}>
+            <div className="pointNo">POINT 0{index + 1}</div>
+            <img src={point.image} alt={point.title} />
+            <div className="pointCopy">
+              <h2>{point.title}</h2>
+              <p>{point.body}</p>
+            </div>
+          </article>
+        ))}
       </section>
 
-      <section className="features section">
-        <div className="featureIntro">
-          <p className="eyebrow">WHY KAKERU?</p>
-          <h2>たった2g。<br />一生ものの、<br />フロス習慣。</h2>
-        </div>
-        <div className="featureGrid">
-          {benefits.map(([num, title, body]) => (
-            <article key={num}>
-              <span>{num}</span>
-              <h3>{title}</h3>
-              <p>{body}</p>
-            </article>
-          ))}
+      <section className="reveal">
+        <p>毎日のケアを、<br /><strong>“ワンランク上”</strong>に整える一本。</p>
+        <span>公開まで、あと少し。</span>
+        <div className="productReveal">
+          <img src="/product/in-use.png" alt="KAKERUを使用する様子" />
+          <div className="revealLogo">KAKERU<small>PURE TITANIUM · MADE IN JAPAN</small></div>
         </div>
       </section>
 
-      <section className="imageStory">
-        <div><img src="/product/detail.png" alt="薄さ1mmの純チタン製フロスハンドル" /></div>
-        <div className="imageStoryCopy">
-          <p>THIN AS 1MM</p>
-          <h2>奥歯まで、<br />引っかからず、<br /><em>スッと届く。</em></h2>
-          <p>4箇所固定で糸をしっかり張れる設計。薄く、軽く、指先の感覚まで伝わります。</p>
-        </div>
-      </section>
-
-      <section className="howto section">
-        <div className="howVisual"><img src="/product/threading.png" alt="KAKERUにフロス糸を取り付ける様子" /></div>
-        <div className="howCopy">
-          <p className="eyebrow">HOW TO USE</p>
-          <h2>いつもの糸を、<br />巻くだけ。</h2>
-          <ol>
-            {steps.map(([num, text]) => <li key={num}><span>{num}</span>{text}</li>)}
-          </ol>
-        </div>
-      </section>
-
-      <section className="dentist">
-        <blockquote>
-          「歯ブラシだけでは届かない歯垢を取るには、<br />フロスが欠かせません。」
-        </blockquote>
-        <p>歯科衛生士　保谷馨子</p>
-      </section>
-
-      <section className="craft section">
-        <div className="craftCopy">
-          <p className="eyebrow">CRAFTED IN FUKUI</p>
-          <h2>医療機器も手がける、<br />国内工場の品質。</h2>
-          <p>純度99%以上の日本製純チタン TP340を使用。福井県の職人が、繊細な加工と丁寧な磨きで仕上げています。</p>
-        </div>
-        <img src="/product/craft.png" alt="福井県の工場で行われるチタン加工" />
-      </section>
-
-      <section className="eco">
-        <div><b>365</b><span>DAYS</span></div>
-        <p>捨てるのは、使ったフロス糸だけ。<br />プラスチックごみを減らし、<br />お財布にも、環境にもやさしい毎日へ。</p>
-      </section>
-
-      <section className="offer section" id="offer">
-        <div className="offerCard">
-          <p className="eyebrow">Makuake 先行販売</p>
-          <h2>毎日のケアを、<br />今日から変える。</h2>
-          <div className="price"><span>超早割<br /><b>30% OFF</b></span><strong>4,550<small>円（税込）</small></strong></div>
-          <p className="limited">一般販売予定価格 6,500円 · 限定30個</p>
-          <a className="primary large" href="#" aria-label="MakuakeでKAKERUを応援購入する">Makuakeで応援購入する <span>→</span></a>
-          <p className="note">KAKERU本体 / 専用ケース / 取扱説明書</p>
-        </div>
-        <img src="/product/pouch.png" alt="持ち運びにも便利な専用ケース" />
+      <section className="finalOffer">
+        <p>ここまで読んでくださった方へ。<br />公開日・先行価格・限定数を<br />LINEでいち早くお届けします。</p>
+        <h2><span>＼</span> 一番お得なのはLINEから <span>／</span></h2>
+        <div className="discount">最大<strong>30%</strong>OFF<small>＋LINE限定特典</small></div>
+        <LineButton label="友だち追加して先行案内を受け取る" />
+        <p className="privacy">【個人情報利用目的】<br />お預かりした情報は、商品の先行販売・一般販売に関するご案内のみに利用します。</p>
       </section>
 
       <footer>
-        <div className="brand">KAKERU<span>MY FLOSS HANDLE</span></div>
+        <div className="footerBrand">KAKERU<span>MY FLOSS HANDLE</span></div>
         <p>合同会社ROOTS</p>
-        <small>© 2026 ROOTS. All Rights Reserved.</small>
+        <small>Copyright © 2026 ROOTS</small>
       </footer>
 
-      <a className="stickyCta" href="#offer">先行価格で応援購入 <span>→</span></a>
+      <a className="stickyLine" href={lineUrl}><span className="lineIcon">LINE</span><b>友だち追加</b></a>
     </main>
   );
 }
