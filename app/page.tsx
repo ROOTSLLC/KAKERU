@@ -39,6 +39,7 @@ export default function Home() {
           alt="4箇所固定でフロスをしっかり張れる設計。福井県の職人技で製造"
         />
         <img
+          className="point3Break"
           src="/point-04-floss-choice.png"
           alt="POINT 03 歯間に合わせて最適な市販フロス糸を選べる"
         />
