@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "KAKERU | 先行案内はLINEから",
-  description: "市販の糸を巻くだけ。純チタン製フロス交換ハンドルKAKERUの公開日・先行価格をLINEでお届けします。",
+  title: "KAKERU | 純チタン製フロス交換ハンドル",
+  description: "あなたの歯間に合わせられる。市販のフロス糸を替えるだけの純チタン製フロス交換ハンドル。",
   icons: { icon: "/favicon.svg" },
   openGraph: {
     title: "市販の糸を巻くだけ。| KAKERU",
