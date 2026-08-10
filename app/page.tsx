@@ -3,6 +3,11 @@ export default function Home() {
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
+          className="heroKv"
+          src="/floss-handle-kv.png"
+          alt="使い捨てを卒業。奥歯までしっかり届いて磨きやすい、国産純チタン製フロス交換ハンドル"
+        />
+        <img
           src="/intro-v1.jpg"
           alt="あなたの歯間に合わせられる。市販のフロス糸を替えるだけ。薄さ1mmで奥歯まで引っかからずスッと届く、チタン製フロスハンドル KAKERU"
         />
