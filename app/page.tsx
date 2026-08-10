@@ -3,11 +3,6 @@ export default function Home() {
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
-          className="heroKv"
-          src="/floss-handle-kv.png"
-          alt="使い捨てを卒業。奥歯までしっかり届いて磨きやすい、国産純チタン製フロス交換ハンドル"
-        />
-        <img
           src="/intro-v1.jpg"
           alt="あなたの歯間に合わせられる。市販のフロス糸を替えるだけ。薄さ1mmで奥歯まで引っかからずスッと届く、チタン製フロスハンドル KAKERU"
         />
@@ -22,9 +17,10 @@ export default function Home() {
           </div>
           <div className="plus">＋</div>
           <p className="coupon"><em>LINE登録者先行</em><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
+          <p className="ctaAssist">＼ 登録無料・LINE限定の先行特典 ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
-            <b>友だち追加</b>
+            <b>限定特典を受け取る</b>
           </a>
           <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
         </section>
@@ -68,9 +64,10 @@ export default function Home() {
           </div>
           <div className="plus">＋</div>
           <p className="coupon"><em>LINE登録者先行</em><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
+          <p className="ctaAssist">＼ 登録無料・LINE限定の先行特典 ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
-            <b>友だち追加</b>
+            <b>限定特典を受け取る</b>
           </a>
           <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
         </section>
