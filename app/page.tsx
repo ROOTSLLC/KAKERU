@@ -1,9 +1,11 @@
 export default function Home() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
   return (
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
-          src="/intro-v1.jpg"
+          src={`${basePath}/intro-v1.jpg`}
           alt="あなたの歯間に合わせられる。市販のフロス糸を替えるだけ。薄さ1mmで奥歯まで引っかからずスッと届く、チタン製フロスハンドル KAKERU"
         />
         <section className="lineRegistration" id="line-registration">
@@ -25,32 +27,32 @@ export default function Home() {
           <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
         </section>
         <img
-          src="/pro-review.png"
+          src={`${basePath}/pro-review.png`}
           alt="プロに聞くKAKERUの魅力。歯科衛生士・帆保智子さんによる推薦コメント"
         />
         <img
-          src="/point-01-titanium.png"
+          src={`${basePath}/point-01-titanium.png`}
           alt="POINT 01 日本製、純度99%以上の純チタンを使用。錆びにくく丈夫な一生もの"
         />
         <img
-          src="/point-02-thin-light.png"
+          src={`${basePath}/point-02-thin-light.png`}
           alt="POINT 02 薄さ1mmで奥歯までしっかり届き、わずか2gで手が疲れにくい"
         />
         <img
-          src="/point-03-four-point-fukui.png"
+          src={`${basePath}/point-03-four-point-fukui.png`}
           alt="4箇所固定でフロスをしっかり張れる設計。福井県の職人技で製造"
         />
         <img
           className="point3Break"
-          src="/point-04-floss-choice.png"
+          src={`${basePath}/point-04-floss-choice.png`}
           alt="POINT 03 歯間に合わせて最適な市販フロス糸を選べる"
         />
         <img
-          src="/point-05-hanging-storage.png"
+          src={`${basePath}/point-05-hanging-storage.png`}
           alt="POINT 04 水洗いして掛けて保管でき、場所を取らず衛生的"
         />
         <img
-          src="/point-06-domestic-factory.png"
+          src={`${basePath}/point-06-domestic-factory.png`}
           alt="POINT 05 医療機器も手がける福井県の国内工場と精密チタン加工の職人技"
         />
         <section className="lineRegistration finalLineRegistration" id="final-line-registration">
@@ -72,7 +74,7 @@ export default function Home() {
           <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
         </section>
         <img
-          src="/final-travel-care.png"
+          src={`${basePath}/final-travel-care.png`}
           alt="家でも旅先でも、いつもの磨き心地。毎日続けるケアだからこそ使いやすさにこだわりました"
         />
       </section>
