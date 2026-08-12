@@ -12,7 +12,7 @@ export default function Home() {
           <p className="lineLead">クラファン開始情報は、LINEで。</p>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
-            <span>数量限定<br />最大</span>
+            <span>数量限定 最大</span>
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
@@ -57,7 +57,7 @@ export default function Home() {
           <h2>数量限定の最大割引を逃さないよう、<br />LINEで開始情報を受け取りませんか。</h2>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
-            <span>数量限定<br />最大</span>
+            <span>数量限定 最大</span>
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
