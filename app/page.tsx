@@ -9,22 +9,21 @@ export default function Home() {
           alt="あなたの歯間に合わせられる。市販のフロス糸を替えるだけ。薄さ1mmで奥歯まで引っかからずスッと届く、チタン製フロスハンドル KAKERU"
         />
         <section className="lineRegistration" id="line-registration">
-          <p className="lineLead">初回のご案内は、LINE先行。</p>
-          <h2>お得な先行情報を<br />いち早くお届けします。</h2>
+          <p className="lineLead">クラファン開始情報は、LINEで。</p>
+          <h2>数量限定の最大割引を逃さないよう、<br />開始情報をいち早くお届けします。</h2>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
-            <span>最大</span>
+            <span>数量限定<br />最大</span>
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
-          <div className="plus">＋</div>
-          <p className="coupon"><em>LINE登録者先行</em><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
-          <p className="ctaAssist">＼ 登録無料・LINE限定の先行特典 ／</p>
+          <p className="availability"><em>数量限定</em>割引率の高いプランから<br />予定数に達し次第、受付終了となります。</p>
+          <p className="ctaAssist">＼ 登録無料・クラファン最新情報をお届け ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
-            <b>限定特典を受け取る</b>
+            <b>開始情報をLINEで受け取る</b>
           </a>
-          <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
+          <p className="lineNote">登録は無料です。<br />クラファン開始日・限定数・先行価格などの最新情報をLINEでお知らせします。</p>
         </section>
         <img
           src={`${basePath}/pro-review.png`}
@@ -57,21 +56,20 @@ export default function Home() {
         />
         <section className="lineRegistration finalLineRegistration" id="final-line-registration">
           <p className="finalMessage">ここまで読んでくださった方へ</p>
-          <h2>最も条件の良いご案内を、<br />LINEでお届けします。</h2>
+          <h2>数量限定の最大割引を逃さないよう、<br />LINEで開始情報を受け取りませんか。</h2>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
-            <span>最大</span>
+            <span>数量限定<br />最大</span>
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
-          <div className="plus">＋</div>
-          <p className="coupon"><em>LINE登録者先行</em><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
-          <p className="ctaAssist">＼ 登録無料・LINE限定の先行特典 ／</p>
+          <p className="availability"><em>数量限定</em>割引率の高いプランから<br />予定数に達し次第、受付終了となります。</p>
+          <p className="ctaAssist">＼ 登録無料・クラファン最新情報をお届け ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
-            <b>限定特典を受け取る</b>
+            <b>開始情報をLINEで受け取る</b>
           </a>
-          <p className="lineNote">登録は無料です。<br />販売開始日・限定数・先行価格をLINEでお知らせします。</p>
+          <p className="lineNote">登録は無料です。<br />クラファン開始日・限定数・先行価格などの最新情報をLINEでお知らせします。</p>
         </section>
         <img
           src={`${basePath}/final-travel-care.png`}
