@@ -4,10 +4,6 @@ export default function Home() {
   return (
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
-        <img
-          src={`${basePath}/intro-v1.jpg`}
-          alt="あなたの歯間に合わせられる。市販のフロス糸を替えるだけ。薄さ1mmで奥歯まで引っかからずスッと届く、チタン製フロスハンドル KAKERU"
-        />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">クラファン開始情報は、LINEで。</p>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
@@ -21,7 +17,7 @@ export default function Home() {
             <span className="lineMark">LINE</span>
             <b>開始情報をLINEで受け取る</b>
           </a>
-          <p className="lineNote">登録は無料です。<br />クラファン開始日・限定数・先行価格などの最新情報をLINEでお知らせします。</p>
+          <p className="lineNote">登録は無料です。<br />クラファン開始日・限定数・先行価格などの<br />最新情報をLINEでお知らせします。</p>
         </section>
         <img
           src={`${basePath}/pro-review.png`}
