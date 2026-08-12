@@ -8,6 +8,10 @@ export default function Home() {
           src={`${basePath}/kakeru-hero.png`}
           alt="フロスを自分に合わせる。好きな糸と張り具合で歯に合わせてカスタマイズできる、薄さ1mmのフロスハンドル KAKERU"
         />
+        <img
+          src={`${basePath}/kakeru-hero-detail.jpeg`}
+          alt="自分の歯間に合わせて詰まった汚れをごっそり。磨いたあとのスッキリ感が変わる純チタン製フロスハンドル"
+        />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">クラファン開始情報は、LINEで。</p>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
