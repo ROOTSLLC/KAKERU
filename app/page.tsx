@@ -4,6 +4,10 @@ export default function Home() {
   return (
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
+        <img
+          src={`${basePath}/kakeru-hero.png`}
+          alt="フロスを自分に合わせる。好きな糸と張り具合で歯に合わせてカスタマイズできる、薄さ1mmのフロスハンドル KAKERU"
+        />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">クラファン開始情報は、LINEで。</p>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
