@@ -66,7 +66,7 @@ export default function Home() {
             <span className="lineMark">LINE</span>
             <b>開始情報をLINEで受け取る</b>
           </a>
-          <p className="lineNote">登録は無料です。<br />クラファン開始日・限定数・先行価格などの最新情報をLINEでお知らせします。</p>
+          <p className="lineNote">登録は無料です。<br />クラファン開始日・限定数・先行価格などの<br />最新情報をLINEでお知らせします。</p>
         </section>
         <img
           src={`${basePath}/final-travel-care.png`}
