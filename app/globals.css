@@ -6,6 +6,11 @@ body { color: #222; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-
 main { min-height: 100vh; background: #fff; }
 .introArtwork { width: min(100%, 640px); margin: 0 auto; background: #fff; }
 .introArtwork img { display: block; width: 100%; height: auto; }
+.introArtwork img:first-child {
+  aspect-ratio: 1230 / 2470;
+  object-fit: cover;
+  object-position: top;
+}
 .introArtwork img.point3Break { padding-top: 72px; background: #fff; }
 .lineRegistration { position: relative; overflow: hidden; padding: 92px 28px 82px; text-align: center; background: radial-gradient(circle at 50% 8%, #fff 0 16%, transparent 45%), linear-gradient(180deg, #f3fffa 0%, #fff 46%, #effcf5 100%); border-top: 8px solid #06c755; border-bottom: 1px solid #ccebd8; }
 .lineRegistration::before { content: "LINEで最新情報をお届け"; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: max-content; padding: 9px 28px 11px; color: #fff; background: #06c755; border-radius: 0 0 18px 18px; box-shadow: 0 7px 20px rgba(6, 199, 85, .22); font-size: 14px; font-weight: 800; letter-spacing: .08em; }
