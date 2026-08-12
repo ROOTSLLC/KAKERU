@@ -10,14 +10,12 @@ export default function Home() {
         />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">クラファン開始情報は、LINEで。</p>
-          <h2>数量限定の最大割引を逃さないよう、<br />開始情報をいち早くお届けします。</h2>
           <p className="launchNotice"><strong>9月初旬</strong><br />Makuakeで先行発売予定</p>
           <div className="lineBenefit">
             <span>数量限定<br />最大</span>
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
-          <p className="availability"><em>数量限定</em>割引率の高いプランから<br />予定数に達し次第、受付終了となります。</p>
           <p className="ctaAssist">＼ 登録無料・クラファン最新情報をお届け ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
@@ -63,7 +61,6 @@ export default function Home() {
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
-          <p className="availability"><em>数量限定</em>割引率の高いプランから<br />予定数に達し次第、受付終了となります。</p>
           <p className="ctaAssist">＼ 登録無料・クラファン最新情報をお届け ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
