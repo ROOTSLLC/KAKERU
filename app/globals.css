@@ -31,7 +31,7 @@ main { min-height: 100vh; background: #fff; }
 .finalMessage { display: inline-block; margin: 0 0 24px; padding-bottom: 8px; color: #596361; border-bottom: 1px solid #00aeb5; font: 500 15px "Yu Mincho", "Hiragino Mincho ProN", serif; letter-spacing: .08em; }
 #line-registration .lineBenefit>span { height: auto; font-size: 20px; }
 #line-registration .lineBenefit>b { height: 10px; }
-#final-line-registration h2 { font-size: 25px; }
+#final-line-registration h2 { font-size: 20px; }
 #final-line-registration .lineBenefit>span { height: auto; font-size: 20px; }
 #final-line-registration .lineBenefit>b { height: 20px; }
 .continuation { width: min(100%, 640px); height: 96px; margin: 0 auto; background: #fff; }
