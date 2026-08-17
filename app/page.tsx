@@ -16,6 +16,10 @@ export default function Home() {
           src={`${basePath}/intro-new-03.jpg`}
           alt="薄さわずか1mm。奥歯まで引っかかりにくく、スッと届く"
         />
+        <img
+          src={`${basePath}/intro-new-04.jpg`}
+          alt="その取り残し感までスッキリ。一度使えば使い捨てには戻れない、日本の職人が作る純チタン製フロスハンドル"
+        />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">初回のご案内は、LINE先行。</p>
           <h2>お得な先行情報を<br />いち早くお届けします。</h2>
