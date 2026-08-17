@@ -5,19 +5,19 @@ export default function Home() {
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
-          src={`${basePath}/intro-new-01-20260817-v2.png`}
+          src={`${basePath}/intro-mobile-01.jpg`}
           alt="あなたの歯間に合わせて糸を変えられる。奥歯まで思い通り、自分仕様のフロスケア"
         />
         <img
-          src={`${basePath}/intro-new-02-20260817-v2.png`}
+          src={`${basePath}/intro-mobile-02.jpg`}
           alt="薄さわずか1mm。奥歯まで引っかかりにくく、スッと届くフロスハンドル"
         />
         <img
-          src={`${basePath}/intro-new-03-20260817-v2.png`}
+          src={`${basePath}/intro-mobile-03.jpg`}
           alt="歯間に合わせて調整できるから、狙ったすき間へしっかり届くフロスハンドル"
         />
         <img
-          src={`${basePath}/intro-new-04-20260817-v2.png`}
+          src={`${basePath}/intro-mobile-04.jpg`}
           alt="その取り残し感までスッキリ。使い捨てはもう卒業、日本の職人が作る純チタン製フロスハンドル"
         />
         <section className="lineRegistration" id="line-registration">
