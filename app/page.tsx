@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
-          src={`${basePath}/intro-new-01.jpg`}
+          src={`${basePath}/intro-new-01-20260817.jpg`}
           alt="奥歯まで思い通り。狭い歯間も広い歯間も、糸の種類や張り具合を自分仕様に調整できるフロスハンドル"
         />
         <img
