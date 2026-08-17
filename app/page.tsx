@@ -29,8 +29,6 @@ export default function Home() {
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
-          <div className="plus">＋</div>
-          <p className="coupon"><em>LINE登録者先行</em><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
           <p className="ctaAssist">＼ 登録無料・LINE限定の先行特典 ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>
@@ -76,8 +74,6 @@ export default function Home() {
             <strong>33<small>%</small></strong>
             <b>OFF</b>
           </div>
-          <div className="plus">＋</div>
-          <p className="coupon"><em>LINE登録者先行</em><strong>500円</strong>クーポン<br /><span>発行予定</span></p>
           <p className="ctaAssist">＼ 登録無料・LINE限定の先行特典 ／</p>
           <a className="lineButton" href="https://lin.ee/or3BWo5" aria-label="LINEで友だち追加">
             <span className="lineMark">LINE</span>

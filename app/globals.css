@@ -18,11 +18,6 @@ main { min-height: 100vh; background: #fff; }
 .lineBenefit strong { color: #06aa4a; font: 700 88px/1 Georgia, serif; text-shadow: 0 3px 0 #d9f6e5; }
 .lineBenefit strong small { font-size: 38px; }
 .lineBenefit>b { margin-left: 7px; font-size: 27px; }
-.plus { margin: 10px 0 6px; color: #8b9593; font-size: 25px; }
-.coupon { display: inline-block; min-width: 300px; margin: 0; padding: 15px 30px 16px; color: #24332d; background: #fff; border: 2px solid #06c755; border-radius: 12px; box-shadow: 0 9px 24px rgba(6, 199, 85, .12); font-size: 22px; font-weight: 800; line-height: 1.4; }
-.coupon em { display: block; width: fit-content; margin: 0 auto 5px; padding: 3px 12px; color: #fff; background: #06c755; border-radius: 999px; font-size: 12px; font-style: normal; letter-spacing: .12em; }
-.coupon strong { color: #06aa4a; font-size: 39px; }
-.coupon span { font-size: 17px; letter-spacing: .15em; }
 .ctaAssist { margin: 34px 0 10px; color: #078b41; font-size: 14px; font-weight: 800; letter-spacing: .04em; }
 .lineButton { position: relative; width: min(100%, 430px); min-height: 78px; margin: 0 auto 18px; display: flex; align-items: center; justify-content: center; gap: 14px; color: #fff; background: linear-gradient(180deg, #19d765 0%, #06b84c 100%); border: 2px solid #fff; border-radius: 16px; box-shadow: 0 12px 28px rgba(6, 199, 85, .32), 0 0 0 4px rgba(6, 199, 85, .15); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .lineButton::after { content: "›"; position: absolute; right: 20px; top: 50%; transform: translateY(-54%); font-size: 31px; font-weight: 300; }
@@ -46,7 +41,6 @@ main { min-height: 100vh; background: #fff; }
   .lineRegistration::before { padding-inline: 22px; font-size: 13px; }
   .lineRegistration h2 { font-size: 24px; }
   .lineBenefit strong { font-size: 72px; }
-  .coupon { min-width: 280px; }
   .lineButton b { font-size: 18px; }
   .introArtwork img.point3Break { padding-top: 56px; }
 }
