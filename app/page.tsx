@@ -13,11 +13,11 @@ export default function Home() {
           alt="薄さわずか1mm。奥歯まで引っかかりにくく、スッと届くフロスハンドル"
         />
         <img
-          src={`${basePath}/intro-mobile-03.jpg`}
+          src={`${basePath}/intro-mobile-03-20260817.jpg`}
           alt="歯間に合わせて調整できるから、狙ったすき間へしっかり届くフロスハンドル"
         />
         <img
-          src={`${basePath}/intro-mobile-04.jpg`}
+          src={`${basePath}/intro-mobile-04-20260817.jpg`}
           alt="その取り残し感までスッキリ。使い捨てはもう卒業、日本の職人が作る純チタン製フロスハンドル"
         />
         <section className="lineRegistration" id="line-registration">
