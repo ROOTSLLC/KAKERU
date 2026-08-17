@@ -5,11 +5,11 @@ export default function Home() {
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
-          src={`${basePath}/intro-mobile-01.jpg`}
+          src={`${basePath}/intro-mobile-01-20260817.jpg`}
           alt="あなたの歯間に合わせて糸を変えられる。奥歯まで思い通り、自分仕様のフロスケア"
         />
         <img
-          src={`${basePath}/intro-mobile-02.jpg`}
+          src={`${basePath}/intro-mobile-02-20260817.jpg`}
           alt="薄さわずか1mm。奥歯まで引っかかりにくく、スッと届くフロスハンドル"
         />
         <img
