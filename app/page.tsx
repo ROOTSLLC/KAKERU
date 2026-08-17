@@ -5,20 +5,20 @@ export default function Home() {
     <main>
       <section className="introArtwork" aria-label="KAKERU 商品紹介">
         <img
-          src={`${basePath}/intro-new-01-20260817.jpg`}
-          alt="奥歯まで思い通り。狭い歯間も広い歯間も、糸の種類や張り具合を自分仕様に調整できるフロスハンドル"
+          src={`${basePath}/intro-new-01-20260817-v2.png`}
+          alt="あなたの歯間に合わせて糸を変えられる。奥歯まで思い通り、自分仕様のフロスケア"
         />
         <img
-          src={`${basePath}/intro-new-02.jpg`}
-          alt="歯間に合わせて調整できるから、狙ったすき間へしっかり届き、奥歯に残った汚れまで丁寧にかき出せる"
+          src={`${basePath}/intro-new-02-20260817-v2.png`}
+          alt="薄さわずか1mm。奥歯まで引っかかりにくく、スッと届くフロスハンドル"
         />
         <img
-          src={`${basePath}/intro-new-03.jpg`}
-          alt="薄さわずか1mm。奥歯まで引っかかりにくく、スッと届く"
+          src={`${basePath}/intro-new-03-20260817-v2.png`}
+          alt="歯間に合わせて調整できるから、狙ったすき間へしっかり届くフロスハンドル"
         />
         <img
-          src={`${basePath}/intro-new-04.jpg`}
-          alt="その取り残し感までスッキリ。一度使えば使い捨てには戻れない、日本の職人が作る純チタン製フロスハンドル"
+          src={`${basePath}/intro-new-04-20260817-v2.png`}
+          alt="その取り残し感までスッキリ。使い捨てはもう卒業、日本の職人が作る純チタン製フロスハンドル"
         />
         <section className="lineRegistration" id="line-registration">
           <p className="lineLead">初回のご案内は、LINE先行。</p>
